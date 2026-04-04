@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkCare | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="zen-nav">
+        <div class="nav-brand">LinkCare.</div>
+        <div class="nav-links">
+            <a href="index.html">The Ecosystem</a>
+            <a href="about.html">Our Mission</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html" style="color: var(--charcoal); font-weight: 600;">Contact Us</a>
+            <a href="pre-order.html" style="color: var(--sage-green); font-weight: 500;">Pre-order</a>
+        </div>
+    </nav>
+
+    <!-- Soft focus background element -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; overflow: hidden; z-index: -1;">
+        <img src="6.jpeg" alt="Soft background" style="filter: blur(50px); opacity: 0.3; object-fit: cover; width: 100%; height: 100%;">
+    </div>
+
+    <section class="padded-section" style="padding-top: 200px; display: flex; justify-content: center;">
+        <div class="cloud-container" style="width: 100%; max-width: 600px;">
+            <h1 style="text-align: center; margin-bottom: 20px; font-size: 2.5rem;">Get in touch</h1>
+            <p style="text-align: center; margin-bottom: 40px;">How can we assist you and your family?</p>
+            
+            <form>
+                <input type="text" class="zen-input" placeholder="Your Name" required>
+                <input type="email" class="zen-input" placeholder="Email Address" required>
+                <textarea class="zen-input" rows="5" placeholder="Your Message" required></textarea>
+                <div style="text-align: center;">
+                    <button type="submit" class="btn-pill" style="width: 100%;">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

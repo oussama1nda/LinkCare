@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkCare | Reserve</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: var(--pure-white);">
+    <nav class="zen-nav">
+        <div class="nav-brand">LinkCare.</div>
+        <div class="nav-links">
+            <a href="index.html">The Ecosystem</a>
+            <a href="about.html">Our Mission</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="pre-order.html" style="color: var(--sage-green); font-weight: 600;">Pre-order</a>
+        </div>
+    </nav>
+
+    <section class="asym-grid" style="min-height: 100vh; padding: 0 5%; gap: 0;">
+        <div style="padding: 100px 5%; max-width: 600px; margin: 0 auto; width: 100%;">
+            <h1 style="font-size: 3rem; margin-bottom: 16px;">Reserve yours.</h1>
+            <p style="margin-bottom: 40px;">Secure your position in the upcoming limited release.</p>
+            
+            <form id="zen-preorder">
+                <input type="text" class="zen-input" placeholder="Full Name" required>
+                <input type="email" class="zen-input" placeholder="Email Address" required>
+                
+                <div style="margin-bottom: 24px;">
+                    <label style="display: block; font-size: 0.95rem; color: var(--text-muted); margin-bottom: 8px;">Shipping Interest</label>
+                    <select class="zen-input" style="appearance: none;">
+                        <option>United States</option>
+                        <option>Europe</option>
+                        <option>Asia Pacific</option>
+                    </select>
+                </div>
+                
+                <button type="submit" id="submit-btn" class="btn-pill" style="width: 100%;">Complete Reservation</button>
+            </form>
+        </div>
+        
+        <div style="height: 100vh; padding: 100px 80px; display: flex; align-items: center; justify-content: center;">
+            <div class="cloud-container-alt" style="height: 85%; width: 100%; padding: 0;">
+                <img src="7.jpeg" alt="LinkCare Box Checkout" style="border-radius: 40px 80px 40px 60px;">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
